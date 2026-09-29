@@ -1,0 +1,25 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds",
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://abccbaandy.github.io"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds",
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.abccbaandy.pttchrome",
+      "sha256_cert_fingerprints": [
+        "9B:91:44:20:40:43:63:15:F0:FE:FE:F9:76:09:35:12:6E:65:80:33:5F:4D:04:C6:D5:85:8C:A9:D0:4F:E1:4F"
+      ]
+    }
+  }
+]
